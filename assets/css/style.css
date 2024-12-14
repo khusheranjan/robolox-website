@@ -1521,32 +1521,6 @@ body {
 
 
 
-  /**
-   * LATEST GAME
-   */
-
-  .latest-game .has-scrollbar { padding-block-end: 0; }
-
-
-
-  /**
-   * LIVE MATCH
-   */
-
-  .live-match-banner {
-    max-width: 700px;
-    margin-inline: auto;
-  }
-
-  .live-match-player {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-  }
-
-  .live-match-detail { margin-block: 0; }
-
-
 
   /**
    * FEATURED GAME
@@ -1635,18 +1609,6 @@ body {
    */
 
   .brand-item { min-width: calc(16.66% - 16.66px); }
-
-
-
-  /**
-   * LIVE MATCH
-   */
-
-  .section-wrapper::before { height: 72%; }
-
-  .live-match-banner { max-width: max-content; }
-
-  .live-match-player::after { font-size: 35rem; }
 
 
 
